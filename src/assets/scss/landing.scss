@@ -5,9 +5,13 @@
   position: relative;
   ul{
     position: absolute;
+    top: 1em;
     right: 0;
     a{
       padding: 0;
+      &:hover{
+        color: purple;
+      }
       li{
         padding: 1.5em;
         font-weight: bold;
