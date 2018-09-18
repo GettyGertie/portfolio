@@ -1,14 +1,17 @@
 .landing{
   height: 100vh;
   background-size: cover;
-  background-image: url("../img/dee.png");
-  h1{
-    color: white;
-  }
-  a{
-    color: black;
-  }
-  .menu-bar{
+  background-image: url("../img/dee.png"); 
+  position: relative;
+  ul{
+    position: absolute;
     right: 0;
+    a{
+      padding: 0;
+      li{
+        padding: 1.5em;
+        font-weight: bold;
+      }
+    }
   }
 }
